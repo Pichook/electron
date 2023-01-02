@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1a1c25;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    color: yellow;
+    font-size: 17px;
+}
+#text{
+    height: 20vh;
+    width: 350px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Product Sans', sans-serif;
+    padding: 20px 10px 0;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Product Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #6B728E;
+    border-radius: 15px;
+    width: 330px;
+    height: 40px;
+}
+.btn:hover{
+    background-color: #4e5162;
+    color: yellow;
+    border-color: yellow;
+}
+#image{
+    width: 350px;
+    height: 250px;
+    background-image: url("/HTML/images/rsz_undraw_connected_world_wuay-photoroom_1.png");
+    background-repeat: no-repeat;
+}
